@@ -4,6 +4,7 @@ export const ENV = {
   get cookieSecret() { return process.env.MANUS_JWT_SECRET ?? ""; },
   get databaseUrl() { return process.env.DATABASE_URL ?? ""; },
   get oAuthServerUrl() { return process.env.MANUS_OAUTH_API_URL ?? ""; },
+  get portalOwnerEmail() { return process.env.PORTAL_OWNER_EMAIL ?? ""; },
   // Preserve the legacy hint when supplied; otherwise roles remain application data.
   get ownerOpenId() { return process.env.OWNER_OPEN_ID ?? ""; },
   get isProduction() { return process.env.NODE_ENV === "production"; },

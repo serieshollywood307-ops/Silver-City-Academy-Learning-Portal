@@ -1,0 +1,19 @@
+{
+  "reviewedOn": "2026-10-14",
+  "sourceTitle": "Silver City Academy — About Us",
+  "sourceUrl": "https://silvercityacademy.org/about-us/",
+  "notice": "Names and role/subject labels below reflect information published on the school website when reviewed. This may not be a complete or current faculty directory; please confirm assignments with the school.",
+  "teachers": [
+    {"name":"Sachendra Shukla","subjects":["Principal"]},
+    {"name":"Ajeet Kumar","subjects":["Accounts"]},
+    {"name":"Ashwini Mishra","subjects":["Chemistry","Science"]},
+    {"name":"Abhishek Gupta","subjects":["Social Studies"]},
+    {"name":"Nikhil Tiwari","subjects":["Maths"]},
+    {"name":"Ashok Sharma","subjects":["Physics","Maths"]},
+    {"name":"Babita","subjects":["Hindi"]},
+    {"name":"Mithilesh Shukla","subjects":["Hindi","Sanskrit"]},
+    {"name":"Aman Shukla","subjects":["Primary Teacher"]},
+    {"name":"Anoop Shukla","subjects":["English"]},
+    {"name":"Shama","subjects":["English"]}
+  ]
+}

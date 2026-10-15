@@ -1,0 +1,288 @@
+[
+  {
+    "id": "ecosystems",
+    "classKey": "class-9",
+    "classLabel": "Class 9",
+    "subject": "Science",
+    "chapter": "Ecosystems",
+    "kind": "Concept note",
+    "title": "Ecosystems at a glance",
+    "description": "How living and non-living parts of an environment connect.",
+    "summary": "An ecosystem includes living organisms and the non-living surroundings they interact with. Plants and other producers make food using sunlight; consumers get energy by eating plants or other animals; decomposers help return nutrients to the environment.",
+    "keyPoint": "Think of an ecosystem as a connected community—not a list of separate organisms.",
+    "questions": [
+      {
+        "q": "Name one producer and one consumer you might find in a garden.",
+        "a": "A green plant is a producer; a caterpillar or bird can be a consumer."
+      },
+      {
+        "q": "What is one role of decomposers?",
+        "a": "They break down dead material and help return nutrients to the environment."
+      }
+    ]
+  },
+  {
+    "id": "linear-equations",
+    "classKey": "class-9",
+    "classLabel": "Class 9",
+    "subject": "Mathematics",
+    "chapter": "Linear equations",
+    "kind": "Worked example",
+    "title": "Solve a linear equation",
+    "description": "Keep both sides balanced while solving a simple equation.",
+    "summary": "A linear equation has a variable with power one. To solve 2x + 5 = 13, subtract 5 from both sides to get 2x = 8, then divide both sides by 2. So x = 4.",
+    "keyPoint": "Whatever operation you apply to one side, apply it to the other side too.",
+    "questions": [
+      {
+        "q": "Solve 3x + 4 = 19.",
+        "a": "3x = 15, so x = 5."
+      },
+      {
+        "q": "What should you do first in 2x + 7 = 17?",
+        "a": "Subtract 7 from both sides."
+      }
+    ]
+  },
+  {
+    "id": "maps-and-scale",
+    "classKey": "class-9",
+    "classLabel": "Class 9",
+    "subject": "Geography",
+    "chapter": "Maps and scale",
+    "kind": "Study note",
+    "title": "Read a map scale",
+    "description": "Relate a measured map distance to a real-world distance.",
+    "summary": "A map scale shows how a distance on the map relates to a distance on the ground. If 1 centimetre represents 5 kilometres, then 3 centimetres represents 15 kilometres, assuming the scale is used consistently.",
+    "keyPoint": "Check the scale units before multiplying or converting a distance.",
+    "questions": [
+      {
+        "q": "If 1 cm represents 4 km, how far does 2.5 cm represent?",
+        "a": "2.5 × 4 = 10 km."
+      }
+    ]
+  },
+  {
+    "id": "active-reading",
+    "classKey": "class-10",
+    "classLabel": "Class 10",
+    "subject": "English",
+    "chapter": "Reading comprehension",
+    "kind": "Study strategy",
+    "title": "Read a passage actively",
+    "description": "Find the main idea and supporting details in a text.",
+    "summary": "Before reading, scan the title and headings. During reading, underline repeated ideas and mark unfamiliar words. After reading, explain the passage's main point in one sentence using your own words.",
+    "keyPoint": "A useful summary keeps the central idea and removes details that do not support it.",
+    "questions": [
+      {
+        "q": "What should a one-sentence summary capture?",
+        "a": "The passage's central idea, in your own words."
+      }
+    ]
+  },
+  {
+    "id": "chemical-reactions",
+    "classKey": "class-10",
+    "classLabel": "Class 10",
+    "subject": "Science",
+    "chapter": "Chemical reactions",
+    "kind": "Concept note",
+    "title": "A first look at chemical change",
+    "description": "Notice the clues that a new substance may have formed.",
+    "summary": "A chemical reaction changes starting substances into new substances. Possible clues include a colour change, gas formation, a temperature change, or a precipitate. A balanced chemical equation has the same number of each type of atom on both sides.",
+    "keyPoint": "An observation is a clue; use evidence and the equation to explain what changed.",
+    "questions": [
+      {
+        "q": "Why balance a chemical equation?",
+        "a": "To show conservation of atoms: each element has equal atom counts on both sides."
+      },
+      {
+        "q": "Name one observation that may suggest a reaction took place.",
+        "a": "Examples include gas formation, colour change, a temperature change, or a precipitate."
+      }
+    ]
+  },
+  {
+    "id": "cells",
+    "classKey": "class-11",
+    "classLabel": "Class 11",
+    "subject": "Biology",
+    "chapter": "Cell: structure and function",
+    "kind": "Concept note",
+    "title": "Inside the cell",
+    "description": "An introduction to the cell as a living system's basic unit.",
+    "summary": "Cells are the basic structural and functional units of living things. The cell membrane helps regulate what enters and leaves. In many cells, the nucleus stores genetic information, while the cytoplasm is where many cell activities take place.",
+    "keyPoint": "Cell structures have different roles, but they work together to keep the cell functioning.",
+    "questions": [
+      {
+        "q": "Give one role of the cell membrane.",
+        "a": "It helps regulate the movement of substances into and out of the cell."
+      },
+      {
+        "q": "Where is genetic information stored in many cells?",
+        "a": "In the nucleus."
+      }
+    ]
+  },
+  {
+    "id": "motion",
+    "classKey": "class-11",
+    "classLabel": "Class 11",
+    "subject": "Physics",
+    "chapter": "Motion in a straight line",
+    "kind": "Worked example",
+    "title": "Distance and displacement",
+    "description": "A short reminder about path length and change in position.",
+    "summary": "Distance is the total length of the path travelled and is a scalar. Displacement is the change from starting position to ending position and includes direction. For a round trip ending where it began, the distance can be positive while displacement is zero.",
+    "keyPoint": "Distance depends on the route; displacement depends on start and finish.",
+    "questions": [
+      {
+        "q": "A student walks one lap and returns to the start. What is the displacement?",
+        "a": "Zero, because the final position is the same as the starting position."
+      }
+    ]
+  },
+  {
+    "id": "sets",
+    "classKey": "class-11",
+    "classLabel": "Class 11",
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "kind": "Practice note",
+    "title": "Set notation essentials",
+    "description": "Recognize elements, subsets, and common set symbols.",
+    "summary": "A set is a well-defined collection of distinct objects. The symbol ∈ means 'is an element of'; ⊆ means 'is a subset of'; and ∅ denotes the empty set. Order does not change a set, and repeated elements are written only once.",
+    "keyPoint": "A set lists membership, not sequence or repetition.",
+    "questions": [
+      {
+        "q": "Is 2 an element of {1, 2, 3}?",
+        "a": "Yes. We write 2 ∈ {1, 2, 3}."
+      }
+    ]
+  },
+  {
+    "id": "series-circuits",
+    "classKey": "class-12",
+    "classLabel": "Class 12",
+    "subject": "Physics",
+    "chapter": "Electric circuits",
+    "kind": "Concept note",
+    "title": "A simple series circuit",
+    "description": "How current behaves in one continuous circuit path.",
+    "summary": "In a simple series circuit, components form a single path for charge to flow. The same current passes through each component. If the path is broken at one point, current stops throughout that series path.",
+    "keyPoint": "A series circuit has one continuous route for current; a parallel circuit has branches.",
+    "questions": [
+      {
+        "q": "What happens to the path if one component opens the series circuit?",
+        "a": "The single path is broken, so current stops throughout the series path."
+      }
+    ]
+  },
+  {
+    "id": "solutions",
+    "classKey": "class-12",
+    "classLabel": "Class 12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "kind": "Concept note",
+    "title": "Concentration in a solution",
+    "description": "Describe how much solute is present in a given amount of solution.",
+    "summary": "A solution is a homogeneous mixture of solute and solvent. Concentration describes the amount of solute in a specified amount of solution or solvent. Always check which quantities and units a definition uses before substituting values.",
+    "keyPoint": "Write the units beside each quantity before calculating concentration.",
+    "questions": [
+      {
+        "q": "What are the two parts commonly named in a solution?",
+        "a": "The solute and the solvent."
+      }
+    ]
+  },
+  {
+    "id": "derivatives",
+    "classKey": "class-12",
+    "classLabel": "Class 12",
+    "subject": "Mathematics",
+    "chapter": "Introductory derivatives",
+    "kind": "Worked example",
+    "title": "A derivative starter",
+    "description": "Use the power rule on a simple polynomial term.",
+    "summary": "For a power of x, the basic power rule says d(xⁿ)/dx = n·xⁿ⁻¹. For example, the derivative of x³ is 3x². This describes the instantaneous rate of change of the function with respect to x.",
+    "keyPoint": "Bring the exponent down, then reduce that exponent by one.",
+    "questions": [
+      {
+        "q": "Using the power rule, what is the derivative of x²?",
+        "a": "2x."
+      }
+    ]
+  },
+  {
+    "id": "seasons",
+    "classKey": "gk",
+    "classLabel": "General Knowledge",
+    "subject": "Science",
+    "chapter": "Earth and space",
+    "kind": "GK · Science",
+    "title": "Why Earth has seasons",
+    "description": "Earth's tilt changes how sunlight reaches each hemisphere.",
+    "summary": "Earth's axis is tilted as our planet travels around the Sun. During different parts of the orbit, one hemisphere receives more direct sunlight and longer days than the other. This changing sunlight helps create the seasons.",
+    "keyPoint": "Seasons are mainly caused by Earth's axial tilt, not simply by Earth being closer to the Sun.",
+    "questions": [
+      {
+        "q": "When it is summer in the Northern Hemisphere, what season is usually happening in the Southern Hemisphere?",
+        "a": "Winter, because the hemispheres are tilted toward and away from the Sun at opposite times."
+      }
+    ]
+  },
+  {
+    "id": "continents",
+    "classKey": "gk",
+    "classLabel": "General Knowledge",
+    "subject": "Geography",
+    "chapter": "Continents and oceans",
+    "kind": "GK · Geography",
+    "title": "The seven-continent model",
+    "description": "A memory-friendly overview of one commonly taught continent model.",
+    "summary": "The seven-continent model names Africa, Antarctica, Asia, Europe, North America, South America, and Australia. Some education systems group landmasses differently, so continent models can vary by convention.",
+    "keyPoint": "The seven-continent model is a common convention; other models exist.",
+    "questions": [
+      {
+        "q": "Which continent includes the South Pole?",
+        "a": "Antarctica."
+      }
+    ]
+  },
+  {
+    "id": "ancient-writing",
+    "classKey": "gk",
+    "classLabel": "General Knowledge",
+    "subject": "History",
+    "chapter": "Early writing systems",
+    "kind": "GK · History",
+    "title": "Why writing changed societies",
+    "description": "A short note on recording information across generations.",
+    "summary": "Writing systems let people record information beyond spoken memory. Records could support communication, trade, administration, literature, and the preservation of ideas across generations. Different societies developed writing in different ways and at different times.",
+    "keyPoint": "Writing helps preserve and share knowledge, but its forms and histories are diverse.",
+    "questions": [
+      {
+        "q": "Name one way writing can help a society.",
+        "a": "It can preserve records, support trade or administration, and share ideas across generations."
+      }
+    ]
+  },
+  {
+    "id": "indian-constitution",
+    "classKey": "gk",
+    "classLabel": "General Knowledge",
+    "subject": "India & World",
+    "chapter": "Civics and institutions",
+    "kind": "GK · India",
+    "title": "India's Constitution",
+    "description": "A basic civic fact about the framework of India's government.",
+    "summary": "The Constitution of India is the country's supreme legal framework. It sets out the structure of government, describes the roles of institutions, and states rights and guiding principles. Learning civic ideas also means understanding how these rules apply in practice.",
+    "keyPoint": "A constitution provides a framework for public institutions and law.",
+    "questions": [
+      {
+        "q": "What is one purpose of a constitution?",
+        "a": "It establishes the basic framework and powers of government and states important rights and principles."
+      }
+    ]
+  }
+]

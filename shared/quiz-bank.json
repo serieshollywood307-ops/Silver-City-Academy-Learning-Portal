@@ -1,0 +1,422 @@
+[
+  {
+    "topic": "Science",
+    "prompt": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "answer": "Mars",
+    "explanation": "Iron-rich dust on Mars gives its surface a reddish appearance."
+  },
+  {
+    "topic": "Science",
+    "prompt": "Which gas do plants take in during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium"
+    ],
+    "answer": "Carbon dioxide",
+    "explanation": "Plants use carbon dioxide, water, and light energy to make sugars."
+  },
+  {
+    "topic": "Science",
+    "prompt": "What is the chemical formula for water?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "NaCl"
+    ],
+    "answer": "H₂O",
+    "explanation": "A water molecule contains two hydrogen atoms and one oxygen atom."
+  },
+  {
+    "topic": "Science",
+    "prompt": "Which SI unit measures force?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "answer": "Newton",
+    "explanation": "The newton (N) is the SI unit of force."
+  },
+  {
+    "topic": "Science",
+    "prompt": "Which plant-cell structure is the main site of photosynthesis?",
+    "options": [
+      "Chloroplast",
+      "Nucleus",
+      "Cell wall",
+      "Vacuole"
+    ],
+    "answer": "Chloroplast",
+    "explanation": "Chloroplasts contain chlorophyll and host most photosynthesis in plant cells."
+  },
+  {
+    "topic": "Science",
+    "prompt": "At standard sea-level pressure, what is the approximate boiling point of pure water?",
+    "options": [
+      "0 °C",
+      "50 °C",
+      "100 °C",
+      "150 °C"
+    ],
+    "answer": "100 °C",
+    "explanation": "Pure water boils at about 100 °C at one atmosphere of pressure."
+  },
+  {
+    "topic": "Science",
+    "prompt": "What happens to the average kinetic energy of particles when a substance is heated?",
+    "options": [
+      "It increases",
+      "It becomes zero",
+      "It always stays unchanged",
+      "It changes into mass"
+    ],
+    "answer": "It increases",
+    "explanation": "Heating generally raises particles' average kinetic energy, which is related to temperature."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "If 3x + 4 = 19, what is x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "Subtract 4 to get 3x = 15, then divide by 3."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What is the sum of the interior angles of a triangle in Euclidean geometry?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": "180°",
+    "explanation": "A triangle's interior angles sum to 180° in Euclidean geometry."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What is the mean of 4, 6, and 8?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "18"
+    ],
+    "answer": "6",
+    "explanation": "Add the values and divide by three: (4 + 6 + 8) ÷ 3 = 6."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What are the real solutions of x² = 25?",
+    "options": [
+      "5 only",
+      "−5 only",
+      "−5 and 5",
+      "0 and 25"
+    ],
+    "answer": "−5 and 5",
+    "explanation": "Both 5² and (−5)² equal 25."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What is the slope of the line through (0, 2) and (2, 6)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "Slope = (6 − 2) ÷ (2 − 0) = 2."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What is the derivative of x² with respect to x?",
+    "options": [
+      "x",
+      "2x",
+      "x³",
+      "2"
+    ],
+    "answer": "2x",
+    "explanation": "By the power rule, d(xⁿ)/dx = n·xⁿ⁻¹, so d(x²)/dx = 2x."
+  },
+  {
+    "topic": "Mathematics",
+    "prompt": "What is the probability of rolling an even number on a fair six-sided die?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "1/2",
+    "explanation": "Three of the six equally likely outcomes (2, 4, 6) are even."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "Which continent includes the South Pole?",
+    "options": [
+      "Asia",
+      "Antarctica",
+      "Europe",
+      "South America"
+    ],
+    "answer": "Antarctica",
+    "explanation": "The geographic South Pole is in Antarctica."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "What does a map scale help you compare?",
+    "options": [
+      "Map distance and ground distance",
+      "Rainfall and temperature",
+      "Population and language",
+      "Time and speed"
+    ],
+    "answer": "Map distance and ground distance",
+    "explanation": "A scale links a measured map distance to a real-world distance."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "answer": "Pacific Ocean",
+    "explanation": "The Pacific is the largest ocean by area."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "What is the latitude of the Equator?",
+    "options": [
+      "0°",
+      "23.5° N",
+      "66.5° S",
+      "90° N"
+    ],
+    "answer": "0°",
+    "explanation": "The Equator is the line at 0° latitude, halfway between the poles."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "In which general direction do lines of latitude run?",
+    "options": [
+      "North–south",
+      "East–west",
+      "Only toward the poles",
+      "In a spiral"
+    ],
+    "answer": "East–west",
+    "explanation": "Parallels of latitude circle Earth east–west and measure position north or south of the Equator."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "On a map where 1 cm represents 2 km, what ground distance does 3 cm represent?",
+    "options": [
+      "2 km",
+      "3 km",
+      "5 km",
+      "6 km"
+    ],
+    "answer": "6 km",
+    "explanation": "Multiply 3 cm by the scale of 2 km per centimetre: 6 km."
+  },
+  {
+    "topic": "Geography",
+    "prompt": "The Sahara Desert is mainly located on which continent?",
+    "options": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "South America"
+    ],
+    "answer": "Africa",
+    "explanation": "The Sahara stretches across much of northern Africa."
+  },
+  {
+    "topic": "History",
+    "prompt": "What does a primary historical source usually mean?",
+    "options": [
+      "A source created close to the event or by a participant",
+      "A modern fiction story",
+      "A list of guessed dates",
+      "A science experiment"
+    ],
+    "answer": "A source created close to the event or by a participant",
+    "explanation": "Primary sources come directly from the period or people being studied; context still matters."
+  },
+  {
+    "topic": "History",
+    "prompt": "In which year did the French Revolution begin?",
+    "options": [
+      "1492",
+      "1789",
+      "1815",
+      "1914"
+    ],
+    "answer": "1789",
+    "explanation": "The French Revolution is conventionally dated from 1789."
+  },
+  {
+    "topic": "History",
+    "prompt": "Ashoka's edicts were commonly inscribed on what?",
+    "options": [
+      "Rocks and pillars",
+      "Printed newspapers",
+      "Copper wires",
+      "Canvas sails"
+    ],
+    "answer": "Rocks and pillars",
+    "explanation": "Many of Ashoka's inscriptions were engraved on rocks and pillars across his empire."
+  },
+  {
+    "topic": "History",
+    "prompt": "Which feature is associated with several planned Harappan cities?",
+    "options": [
+      "Organized streets and drainage",
+      "Steam railways",
+      "Cast-iron skyscrapers",
+      "Modern airports"
+    ],
+    "answer": "Organized streets and drainage",
+    "explanation": "Excavated Harappan sites show planned streets and drainage systems."
+  },
+  {
+    "topic": "History",
+    "prompt": "What does archaeology mainly study?",
+    "options": [
+      "Material remains of past human life",
+      "Future weather forecasts",
+      "Only modern elections",
+      "Distant stars"
+    ],
+    "answer": "Material remains of past human life",
+    "explanation": "Archaeologists study objects, buildings, and other material evidence to learn about past societies."
+  },
+  {
+    "topic": "History",
+    "prompt": "The European Renaissance is commonly associated with its early beginnings in which country?",
+    "options": [
+      "Italy",
+      "Canada",
+      "Japan",
+      "Brazil"
+    ],
+    "answer": "Italy",
+    "explanation": "The Renaissance is generally described as beginning in Italian city-states before spreading elsewhere in Europe."
+  },
+  {
+    "topic": "History",
+    "prompt": "Which writing system was used in ancient Mesopotamia?",
+    "options": [
+      "Cuneiform",
+      "Hangul",
+      "Cyrillic",
+      "Morse code"
+    ],
+    "answer": "Cuneiform",
+    "explanation": "Cuneiform was a wedge-shaped writing system used by several ancient Mesopotamian peoples."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "What is the main purpose of a constitution?",
+    "options": [
+      "Set a country's basic legal framework",
+      "Choose every school subject",
+      "Forecast tomorrow's weather",
+      "Measure mountain height"
+    ],
+    "answer": "Set a country's basic legal framework",
+    "explanation": "A constitution outlines core government structures, powers, rights, and principles."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "In which year was the United Nations established?",
+    "options": [
+      "1919",
+      "1939",
+      "1945",
+      "1965"
+    ],
+    "answer": "1945",
+    "explanation": "The United Nations officially came into existence in 1945."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "On which date did India become independent?",
+    "options": [
+      "26 January 1950",
+      "15 August 1947",
+      "2 October 1869",
+      "14 November 1889"
+    ],
+    "answer": "15 August 1947",
+    "explanation": "India became independent on 15 August 1947."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "When is India's Republic Day observed?",
+    "options": [
+      "15 August",
+      "26 January",
+      "2 October",
+      "14 November"
+    ],
+    "answer": "26 January",
+    "explanation": "Republic Day is observed on 26 January, marking the Constitution coming into effect in 1950."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "What is the popularly used name for the directly elected lower house of India's Parliament?",
+    "options": [
+      "Lok Sabha",
+      "Rajya Sabha",
+      "Supreme Court",
+      "NITI Aayog"
+    ],
+    "answer": "Lok Sabha",
+    "explanation": "The Lok Sabha is the House of the People; its members are directly elected."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "Which part of the Constitution of India contains the Fundamental Rights?",
+    "options": [
+      "Part I",
+      "Part II",
+      "Part III",
+      "Part IV"
+    ],
+    "answer": "Part III",
+    "explanation": "The Fundamental Rights are set out in Part III of the Constitution of India."
+  },
+  {
+    "topic": "India & World",
+    "prompt": "Which institution is India's central bank?",
+    "options": [
+      "Reserve Bank of India",
+      "Election Commission of India",
+      "Supreme Court of India",
+      "Finance Commission"
+    ],
+    "answer": "Reserve Bank of India",
+    "explanation": "The Reserve Bank of India is the country's central bank."
+  }
+]

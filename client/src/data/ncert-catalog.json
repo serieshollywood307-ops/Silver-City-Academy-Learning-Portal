@@ -1,0 +1,1198 @@
+{
+  "source": "https://ncert.nic.in/textbook.php?ln=en",
+  "license": "https://epathshala.nic.in/pages.php?id=license&ln=en",
+  "retrievedAt": "2026-10-14",
+  "scope": "Filtered snapshot of NCERT portal offerings for classes IX-XII; official book pages provide chapter PDFs and full-book links.",
+  "books": [
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Arts",
+      "title": "Madhurima",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iemr1=0-17"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "English",
+      "title": "Kaveri",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iebe1=0-8"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Hindi",
+      "title": "Ganga",
+      "officialUrl": "https://ncert.nic.in/textbook.php?ihga1=0-12"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Mathematics",
+      "title": "Ganita Manjari",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iemh1=0-8"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Mathematics",
+      "title": "Ganita Manjari (Hindi)",
+      "officialUrl": "https://ncert.nic.in/textbook.php?ihmh1=0-8"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Mathematics",
+      "title": "Ganita Manjari PART-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iemh2=0-6"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Physical Education and Well Being",
+      "title": "Khel Praveen",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iehp1=0-6"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Sanskrit",
+      "title": "Risikulya(R2)",
+      "officialUrl": "https://ncert.nic.in/textbook.php?isanskritr21=0-10"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Sanskrit",
+      "title": "Sharada",
+      "officialUrl": "https://ncert.nic.in/textbook.php?ihsh1=0-16"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Science",
+      "title": "Anveshan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?ihsc1=0-13"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Science",
+      "title": "Exploration",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iesc1=0-13"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Skill Education",
+      "title": "Kaushal Vikas",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iekv1=0-12"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Social Science",
+      "title": "Understanding Society India and Beyond PART-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iest1=0-9"
+    },
+    {
+      "classKey": "class-9",
+      "classLabel": "Class IX",
+      "subject": "Social Science",
+      "title": "Understanding Society India and Beyond PART-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?iest2=0-6"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "English",
+      "title": "First Flight",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jeff1=0-9"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "English",
+      "title": "Foot Prints Without feet Supp. Reader",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jefp1=0-9"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "English",
+      "title": "Words and Expressions  2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jewe2=0-9"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Health and Physical Education",
+      "title": "Health and Physical Education",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jehp1=0-13"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Hindi",
+      "title": "Kritika",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhkr1=0-3"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Hindi",
+      "title": "Kshitij-2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhks1=0-12"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Hindi",
+      "title": "Sanchayan Bhag-2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhsy1=0-3"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Hindi",
+      "title": "Sparsh",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhsp1=0-14"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Mathematics",
+      "title": "Ganit",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhmh1=0-14"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Mathematics",
+      "title": "Mathematics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jemh1=0-14"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Sanskrit",
+      "title": "Abhyaswaan Bhav-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jsab1=0-14"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Sanskrit",
+      "title": "Shemushi",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhsk1=0-10"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Sanskrit",
+      "title": "Vyakaranavithi",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhva1=0-12"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Science",
+      "title": "Science",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jesc1=0-13"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Science",
+      "title": "Vigyan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhsc1=0-13"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Arthik Vikas ki Samajh",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhss2=0-5"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Bharat Aur Samakalin Vishav-2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhss3=0-5"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Contemporary India",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jess1=0-7"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Democratic Politics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jess4=0-5"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "India and the Contemporary World-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jess3=0-5"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Loktantrik Rajniti",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhss4=0-5"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Samkalin Bharat",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jhss1=0-7"
+    },
+    {
+      "classKey": "class-10",
+      "classLabel": "Class X",
+      "subject": "Social Science",
+      "title": "Understanding Economic Development",
+      "officialUrl": "https://ncert.nic.in/textbook.php?jess2=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Accountancy",
+      "title": "Accountancy-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keac2=0-2"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Accountancy",
+      "title": "Financial Accounting-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keac1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Accountancy",
+      "title": "Lekhashastra-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khac1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Accountancy",
+      "title": "Lekhashastra-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khac2=0-2"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Biology",
+      "title": "Biology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kebo1=0-19"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Biology",
+      "title": "Jeev Vigyan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khbo1=0-19"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Biotechnology",
+      "title": "Biotechnology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kebt1=0-12"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Business Studies",
+      "title": "Business Studies",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kebs1=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Business Studies",
+      "title": "Vyavsay Adhyanan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khbs1=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Chemistry",
+      "title": "Chemistry Part II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kech2=0-3"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Chemistry",
+      "title": "Chemistry Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kech1=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Chemistry",
+      "title": "Rasayan Vigyan bhag-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khch1=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Chemistry",
+      "title": "Rasayan Vigyan bhag-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khch2=0-3"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Computer Science",
+      "title": "Computer Science",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kecs1=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Creative Writing and Translation",
+      "title": "Srijan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsr1=0-4"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Economics",
+      "title": "Bhartiya Airthryavstha Ka Vikas",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khec1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Economics",
+      "title": "Indian Economic Development",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keec1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Economics",
+      "title": "Sankhyiki",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khst1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Economics",
+      "title": "Statistics for Economics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kest1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "English",
+      "title": "Hornbill",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kehb1=0-14"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "English",
+      "title": "Snapshots Suppl.Reader English",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kesp1=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "English",
+      "title": "Woven Words",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keww1=0-27"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Fine Art",
+      "title": "An Introduction to Indian Art Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kefa1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Fine Art",
+      "title": "Bhartiya Kala ka parichay",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khfa1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "Bhart Bhautik Paryabaran",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khgy1=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "Bhautique Bhugol ke Mool Sidhant",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khgy2=0-14"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "Bhugol Main Prayogatmak Karya",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khgy3=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "Fundamental of Physical Geography",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kegy2=0-14"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "India Physical Environment",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kegy1=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Geography",
+      "title": "Pratical Work in Geography",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kegy3=0-6"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Health and Physical Education",
+      "title": "Health and Physical Education",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kehp1=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Hindi",
+      "title": "Antra",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khat1=0-16"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Hindi",
+      "title": "Antral",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khan1=0-2"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Hindi",
+      "title": "Aroh",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khar1=0-16"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Hindi",
+      "title": "Vitan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khvt1=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "History",
+      "title": "Themes in World History",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kehs1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "History",
+      "title": "Vishwa Itihas Ke Kuch Vishay",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khhs1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Home Science",
+      "title": "Human Ecology and Family Sciences Part I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kehe1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Home Science",
+      "title": "Human Ecology and Family Sciences Part II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kehe2=0-4"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Home Science",
+      "title": "Manav Paristhitiki evm pariwar vigyan Bhag-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khhe1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Home Science",
+      "title": "Manav Paristhitiki evm pariwar vigyan Bhag-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khhe2=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Informatics Practices",
+      "title": "Informatics Practices",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keip1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Knowledge Traditions Practices of India",
+      "title": "Knowledge Traditions Practices of India",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keks1=0-9"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Mathematics",
+      "title": "Ganit",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khmh1=0-14"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Mathematics",
+      "title": "Mathematics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kemh1=0-14"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Physics",
+      "title": "Bhautiki-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khph1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Physics",
+      "title": "Bhautiki-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khph2=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Physics",
+      "title": "Physics Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keph1=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Physics",
+      "title": "Physics Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keph2=0-7"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Political Science",
+      "title": "Bharat ka Samvidhan Sidhant aur Vyavhar",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khps2=0-10"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Political Science",
+      "title": "India Constitution at Work",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keps2=0-10"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Political Science",
+      "title": "Political Theory",
+      "officialUrl": "https://ncert.nic.in/textbook.php?keps1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Political Science",
+      "title": "Raajneeti Sidhant",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khps1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Psychology",
+      "title": "Introduction to Psychology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kepy1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Psychology",
+      "title": "Manovigyan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khpy1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sangeet",
+      "title": "Hindustani Sangeet Gayan Evam Vadan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khgv1=0-10"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sangeet",
+      "title": "Tabla evam Pakhawaj",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khtp1=0-8"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sanskrit",
+      "title": "Bhaswati",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsk1=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sanskrit",
+      "title": "Shashwati",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsk2=0-11"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sociology",
+      "title": "Introducing Sociology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kesy1=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sociology",
+      "title": "Samaj ka Bodh",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsy2=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sociology",
+      "title": "Samaj Shastra Parichay-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsy1=0-5"
+    },
+    {
+      "classKey": "class-11",
+      "classLabel": "Class XI",
+      "subject": "Sociology",
+      "title": "Understanding Society",
+      "officialUrl": "https://ncert.nic.in/textbook.php?kesy2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Accountancy",
+      "title": "Accountancy Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leac2=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Accountancy",
+      "title": "Accountancy-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leac1=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Accountancy",
+      "title": "Computerised Accounting System",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leca1=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Accountancy",
+      "title": "Lekhashastra Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhac1=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Accountancy",
+      "title": "Lekhashastra Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhac2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Biology",
+      "title": "Biology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lebo1=0-13"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Biology",
+      "title": "Jeev Vigyan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhbo1=0-13"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Biotechnology",
+      "title": "Biotechnology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lebt1=0-13"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Business Studies",
+      "title": "Business Studies-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lebs1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Business Studies",
+      "title": "Business Studies-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lebs2=0-3"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Business Studies",
+      "title": "Vyavasai Adhyan-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhbs1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Business Studies",
+      "title": "Vyavasai Adhyan-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhbs2=0-3"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Chemistry",
+      "title": "Chemistry-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lech1=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Chemistry",
+      "title": "Chemistry-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lech2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Chemistry",
+      "title": "Rasayan vigyan bhag I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhch1=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Chemistry",
+      "title": "Rasayan vigyan bhag II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhch2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Computer Science",
+      "title": "Computer Science",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lecs1=0-13"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Creative Writing & Translation",
+      "title": "Srijan-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?khsr2=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Economics",
+      "title": "Introductory Macroeconomics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leec1=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Economics",
+      "title": "Introductory Microeconomics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leec2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Economics",
+      "title": "Samashty Arthshastra Ek Parichay",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhec1=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Economics",
+      "title": "Vyashthi Arthshasrta",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhec2=0-5"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "English",
+      "title": "Flamingo",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lefl1=0-13"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "English",
+      "title": "Kaliedoscope",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lekl1=0-21"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "English",
+      "title": "Vistas",
+      "officialUrl": "https://ncert.nic.in/textbook.php?levt1=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Fine Art",
+      "title": "An Introduction to Indian Art Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lefa1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Fine Art",
+      "title": "Bhartiya Kala ka Itihaas Bhag 2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhfa1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "Bharat log aur arthvyasastha(Bhugol)",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhgy2=0-9"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "Bhugol main peryojnatmak pryogatmak karye",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhgy3=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "Fundamentals of Human Geography",
+      "officialUrl": "https://ncert.nic.in/textbook.php?legy1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "India -People And Economy",
+      "officialUrl": "https://ncert.nic.in/textbook.php?legy2=0-9"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "Manav Bhugol Ke Mool Sidhant",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhgy1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Geography",
+      "title": "Practical Work in Geography Part II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?legy3=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Hindi",
+      "title": "Antra",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhat1=0-21"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Hindi",
+      "title": "Antral Bhag 2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhan1=0-3"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Hindi",
+      "title": "Aroh",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhar1=0-15"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Hindi",
+      "title": "Vitan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhvt1=0-3"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Bharatiya Itihas ke kuchh Vishay-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhhs1=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Bharatiya Itihas ke kuchh Vishay-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhhs2=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Bharatiya Itihas ke kuchh Vishay-III",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhhs3=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Themes in Indian History-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehs1=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Themes in Indian History-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehs2=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "History",
+      "title": "Themes in Indian History-III",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehs3=0-4"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Home Science",
+      "title": "Human Ecology and Family Sciences Part I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehe1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Home Science",
+      "title": "Human Ecology and Family Sciences Part II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehe2=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Home Science",
+      "title": "Manav Paristhitik avam Parivar Vigyan Bhag 1",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehh1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Home Science",
+      "title": "Manav Paristhitiki avam Parivar Vigyan Bhag 2",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lehh2=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Informatics Practices",
+      "title": "Informatics Practices",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leip1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Mathematics",
+      "title": "Ganit-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhmh1=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Mathematics",
+      "title": "Ganit-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhmh2=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Mathematics",
+      "title": "Mathematics Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lemh1=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Mathematics",
+      "title": "Mathematics Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lemh2=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Physics",
+      "title": "Bhautiki-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhph1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Physics",
+      "title": "Bhautiki-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhph2=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Physics",
+      "title": "Physics Part-I",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leph1=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Physics",
+      "title": "Physics Part-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leph2=0-6"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Political Science",
+      "title": "Contemporary World Politics",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leps1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Political Science",
+      "title": "Politics in India Since Independence",
+      "officialUrl": "https://ncert.nic.in/textbook.php?leps2=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Political Science",
+      "title": "Samkalin Vishwa Rajniti",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhps1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Political Science",
+      "title": "Swatantra Bharat Mein Rajniti-II",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhps2=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Psychology",
+      "title": "Manovigyan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhpy1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Psychology",
+      "title": "Psychology",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lepy1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sangeet",
+      "title": "Hindustani Sangeet Gayan Evam Vaadan",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lsgv1=0-9"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sangeet",
+      "title": "Tabla evam Pakhawaj",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lstp1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sanskrit",
+      "title": "Bhaswati",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhsk1=0-10"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sanskrit",
+      "title": "Shaswati",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhsk2=0-11"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sociology",
+      "title": "Bharat main Samajik Parivartan aur Vikas",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhsy2=0-8"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sociology",
+      "title": "Bhartiya Samaj",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lhsy1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sociology",
+      "title": "Indian Society",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lesy1=0-7"
+    },
+    {
+      "classKey": "class-12",
+      "classLabel": "Class XII",
+      "subject": "Sociology",
+      "title": "Social Change and Development in India",
+      "officialUrl": "https://ncert.nic.in/textbook.php?lesy2=0-8"
+    }
+  ]
+}

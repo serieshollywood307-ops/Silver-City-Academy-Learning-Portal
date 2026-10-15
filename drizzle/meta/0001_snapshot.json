@@ -1,0 +1,730 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "id": "e6f8a7c3-94be-401b-aada-e0c46c719e7b",
+  "prevId": "bd95a85e-2e49-4cb4-b28f-de49c4dd772f",
+  "tables": {
+    "chapter_notes": {
+      "name": "chapter_notes",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "class_key": {
+          "name": "class_key",
+          "type": "varchar(16)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "subject": {
+          "name": "subject",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "book_title": {
+          "name": "book_title",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "chapter": {
+          "name": "chapter",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "markdown": {
+          "name": "markdown",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        }
+      },
+      "indexes": {
+        "chapter_notes_canonical_idx": {
+          "name": "chapter_notes_canonical_idx",
+          "columns": [
+            "class_key",
+            "subject",
+            "book_title",
+            "chapter"
+          ],
+          "isUnique": true
+        },
+        "chapter_notes_updated_idx": {
+          "name": "chapter_notes_updated_idx",
+          "columns": [
+            "updated_at"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "chapter_notes_id": {
+          "name": "chapter_notes_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "current_affairs": {
+      "name": "current_affairs",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "event_date": {
+          "name": "event_date",
+          "type": "varchar(10)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "topic": {
+          "name": "topic",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "summary": {
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "source_title": {
+          "name": "source_title",
+          "type": "varchar(220)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "source_url": {
+          "name": "source_url",
+          "type": "varchar(2048)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "status": {
+          "name": "status",
+          "type": "enum('draft','published','archived')",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'draft'"
+        },
+        "created_by": {
+          "name": "created_by",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        }
+      },
+      "indexes": {
+        "current_affairs_status_date_idx": {
+          "name": "current_affairs_status_date_idx",
+          "columns": [
+            "status",
+            "event_date"
+          ],
+          "isUnique": false
+        },
+        "current_affairs_created_by_idx": {
+          "name": "current_affairs_created_by_idx",
+          "columns": [
+            "created_by"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "current_affairs_created_by_users_id_fk": {
+          "name": "current_affairs_created_by_users_id_fk",
+          "tableFrom": "current_affairs",
+          "tableTo": "users",
+          "columnsFrom": [
+            "created_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "current_affairs_id": {
+          "name": "current_affairs_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "teacher_invites": {
+      "name": "teacher_invites",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "token_hash": {
+          "name": "token_hash",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_by": {
+          "name": "created_by",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "redeemed_at": {
+          "name": "redeemed_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "redeemed_by": {
+          "name": "redeemed_by",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "revoked_at": {
+          "name": "revoked_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "teacher_invites_created_by_idx": {
+          "name": "teacher_invites_created_by_idx",
+          "columns": [
+            "created_by"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "teacher_invites_created_by_users_id_fk": {
+          "name": "teacher_invites_created_by_users_id_fk",
+          "tableFrom": "teacher_invites",
+          "tableTo": "users",
+          "columnsFrom": [
+            "created_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "teacher_invites_redeemed_by_users_id_fk": {
+          "name": "teacher_invites_redeemed_by_users_id_fk",
+          "tableFrom": "teacher_invites",
+          "tableTo": "users",
+          "columnsFrom": [
+            "redeemed_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "teacher_invites_id": {
+          "name": "teacher_invites_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "teacher_invites_token_hash_unique": {
+          "name": "teacher_invites_token_hash_unique",
+          "columns": [
+            "token_hash"
+          ]
+        }
+      },
+      "checkConstraint": {}
+    },
+    "teacher_uploads": {
+      "name": "teacher_uploads",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "object_key": {
+          "name": "object_key",
+          "type": "varchar(512)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "class_key": {
+          "name": "class_key",
+          "type": "varchar(16)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "subject": {
+          "name": "subject",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "chapter": {
+          "name": "chapter",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "mime_type": {
+          "name": "mime_type",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "byte_size": {
+          "name": "byte_size",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "status": {
+          "name": "status",
+          "type": "enum('draft','published','archived')",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'draft'"
+        },
+        "uploaded_by": {
+          "name": "uploaded_by",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        }
+      },
+      "indexes": {
+        "teacher_uploads_status_created_idx": {
+          "name": "teacher_uploads_status_created_idx",
+          "columns": [
+            "status",
+            "created_at"
+          ],
+          "isUnique": false
+        },
+        "teacher_uploads_owner_status_idx": {
+          "name": "teacher_uploads_owner_status_idx",
+          "columns": [
+            "uploaded_by",
+            "status"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "teacher_uploads_uploaded_by_users_id_fk": {
+          "name": "teacher_uploads_uploaded_by_users_id_fk",
+          "tableFrom": "teacher_uploads",
+          "tableTo": "users",
+          "columnsFrom": [
+            "uploaded_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "teacher_uploads_id": {
+          "name": "teacher_uploads_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "teacher_uploads_object_key_unique": {
+          "name": "teacher_uploads_object_key_unique",
+          "columns": [
+            "object_key"
+          ]
+        }
+      },
+      "checkConstraint": {}
+    },
+    "upload_reservations": {
+      "name": "upload_reservations",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "object_key": {
+          "name": "object_key",
+          "type": "varchar(512)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "uploaded_by": {
+          "name": "uploaded_by",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "class_key": {
+          "name": "class_key",
+          "type": "varchar(16)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "subject": {
+          "name": "subject",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "chapter": {
+          "name": "chapter",
+          "type": "varchar(180)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "mime_type": {
+          "name": "mime_type",
+          "type": "varchar(100)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "byte_size": {
+          "name": "byte_size",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "completed_at": {
+          "name": "completed_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {
+        "upload_reservations_owner_idx": {
+          "name": "upload_reservations_owner_idx",
+          "columns": [
+            "uploaded_by",
+            "created_at"
+          ],
+          "isUnique": false
+        },
+        "upload_reservations_expiry_idx": {
+          "name": "upload_reservations_expiry_idx",
+          "columns": [
+            "expires_at"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "upload_reservations_uploaded_by_users_id_fk": {
+          "name": "upload_reservations_uploaded_by_users_id_fk",
+          "tableFrom": "upload_reservations",
+          "tableTo": "users",
+          "columnsFrom": [
+            "uploaded_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "upload_reservations_id": {
+          "name": "upload_reservations_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "upload_reservations_object_key_unique": {
+          "name": "upload_reservations_object_key_unique",
+          "columns": [
+            "object_key"
+          ]
+        }
+      },
+      "checkConstraint": {}
+    },
+    "users": {
+      "name": "users",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "openId": {
+          "name": "openId",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "email": {
+          "name": "email",
+          "type": "varchar(320)",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "loginMethod": {
+          "name": "loginMethod",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "role": {
+          "name": "role",
+          "type": "enum('user','teacher','admin')",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'user'"
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updatedAt": {
+          "name": "updatedAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        },
+        "lastSignedIn": {
+          "name": "lastSignedIn",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "users_id": {
+          "name": "users_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "users_openId_unique": {
+          "name": "users_openId_unique",
+          "columns": [
+            "openId"
+          ]
+        }
+      },
+      "checkConstraint": {}
+    }
+  },
+  "views": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "tables": {},
+    "indexes": {}
+  }
+}

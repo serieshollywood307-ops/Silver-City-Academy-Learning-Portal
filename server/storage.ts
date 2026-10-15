@@ -96,3 +96,16 @@ export async function storageGetSignedUrl(relKey: string): Promise<string> {
   if (!url) throw new Error("Storage did not return a download URL");
   return url;
 }
+
+/** Server-authorised, short-lived direct PUT target. Never log or persist the presigned URL. */
+export async function storageCreateUploadTarget(relKey: string): Promise<{ key: string; uploadUrl: string }> {
+  const { forgeUrl, forgeKey } = getForgeConfig();
+  const key = normalizeKey(relKey);
+  const endpoint = new URL("v1/storage/presign/put", forgeUrl + "/");
+  endpoint.searchParams.set("path", key);
+  const response = await fetch(endpoint, { headers: { Authorization: `Bearer ${forgeKey}` } });
+  if (!response.ok) throw new Error(`Storage presign failed (${response.status})`);
+  const result = (await response.json()) as { url?: string; error?: string };
+  if (!result.url) throw new Error("Storage did not return an upload target");
+  return { key, uploadUrl: result.url };
+}
